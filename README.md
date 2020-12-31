@@ -63,19 +63,14 @@ git commit -m  "<tipo>( <alcance> ): detalle breve del cambio"
 
 2. Pull latest changes:
 
-   `git remote add origin git@github.com:lahaipway/test-for-frontend.git`
+   `git remote add origin https://github.com/consorcioprogresa/test_frontend.git`
 
-3. Cree una rama dev:
+3. Cree una rama con el nombre del candidato, por ejemplo Jose Soto:
 
-   `git checkout -b feature/dogs-control-panel-screen`
+   `git checkout -b jose-soto/solution`
 
 5. Subir cambios al repositorio:
 
-   `git push origin feature/dogs-control-panel-screen`
-
-6. Abra una nueva Pull Request y asegurese de lo siguiente:
-
-    - `base: master`
-    - `compare: feature/dogs-control-panel-screen`
+   `git push origin jose-soto/solution`
 
 
